@@ -1,6 +1,5 @@
 import { FieldLabel } from "@keystar/ui/field";
 import type { BasicFormField, FormFieldStoredValue } from "@keystatic/core";
-import React from "react";
 
 // Display-only text field component conforming to keystatic requirements
 export function PlainText({

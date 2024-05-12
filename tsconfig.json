@@ -1,13 +1,22 @@
 {
 	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
 		"module": "ESNext",
 		"target": "ESNext",
 		"rootDir": ".",
-		"moduleResolution": "node",
+		"moduleResolution": "Bundler",
 		"strict": true,
-		"esModuleInterop": true,
 		"declaration": true,
-		"jsx": "react"
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"allowJs": true
 	},
 	"exclude": ["node_modules", "**/*.spec.ts"]
 }
